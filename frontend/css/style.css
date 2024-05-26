@@ -12,8 +12,7 @@
 }
 
 body {
-    background: url("../images/background.png");
-    color: #f2f2f2;
+    background-color: #09090B;
 }
 .container {
     width: 100%;
@@ -25,9 +24,10 @@ body {
 .login {
     width: 100%;
     max-width: 330px;
-    background-color: #212121;
+    background-color: #18181d;
     border-radius: 5px;
     padding: 20px;
+    color: white;
 }
 .login > h2 {
     text-align: center;
@@ -45,13 +45,10 @@ body {
     padding: 15px;
     font-size: 0.85rem;
     font-weight: 600;
-    background-color: #121212;
-    color: #f2f2f2;
+    background-color: #ddd;
+    color: black;
     outline: none;
     border-radius: 5px;
-}
-.login__input:focus {
-    outline: 2px solid #f2f2f2;
 }
 .login__button {
     border: none;
@@ -59,12 +56,12 @@ body {
     border-radius: 5px;
     font-size: 0.85rem;
     font-weight: 700;
-    background-color: #ddd;
+    background-color: #650ec8e8;
     cursor: pointer;
-    color: #121212;
+    color: white;
 }
 .login__button:hover {
-    background-color: #fff;
+    background-color: #650ec8;
 }
 .chat {
     width: 100%;
@@ -81,7 +78,7 @@ body {
     justify-content: flex-end;
 }
 .chat__form {
-    background-color: #191919;
+    background-color: #131318;
     padding: 15px 20px;
     display: flex;
     align-items: center;
@@ -96,10 +93,11 @@ body {
     padding: 15px;
     border-radius: 8px;
     flex-grow: 1;
-    background-color: #212121;
+    background-color: #363637;
     outline: none;
-    color: #f2f2f2;
+    color: white;
     font-size: 1rem;
+    border: 1px solid #12121249;
 }
 .chat__button {
     border: none;
